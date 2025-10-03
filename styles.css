@@ -15,6 +15,39 @@ nav {
     margin: 8px 32px;
 }
 
-#my-title {
-    color: rebeccapurple;
+.w-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    margin: 24px 8px;
+    gap: 16px;
+}
+
+h3 {
+    margin: 6px;
+}
+
+#log {
+    width: 100%;
+    height: 256px;
+    resize: none;
+    overflow: auto;
+}
+
+.user-balance {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    column-gap: 8px;
+}
+
+.w-content {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 8px;
 }
